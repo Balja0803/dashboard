@@ -4,6 +4,7 @@ import SideMenu from "./components/SideMenu";
 import Home from "./components/pages/Home";
 import "../src/components/style/app.css";
 import Products from "./components/pages/Products";
+import LoginPage from "./components/pages/LoginPage";
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
-          <Route />
+          <Route path="/LoginPage" element={<LoginPage />} />
           <Route />
         </Routes>
       </div>

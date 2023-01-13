@@ -8,10 +8,14 @@ export default function Header() {
   const urlChangeHandler = () => {
     navigate("products");
   };
+  const signInHandler = () => {
+    navigate("LoginPage");
+  };
   return (
     <div className="header">
       <button onClick={homeHandler}>Home</button>
       <button onClick={urlChangeHandler}>Products</button>
+      <button onClick={signInHandler}>Sign in</button>
     </div>
   );
 }
