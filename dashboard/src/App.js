@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import "../src/components/style/app.css";
 import Products from "./components/pages/Products";
 import LoginPage from "./components/pages/LoginPage";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           <Route />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
